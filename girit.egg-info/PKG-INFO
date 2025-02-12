@@ -1,0 +1,6 @@
+Metadata-Version: 2.2
+Name: girit
+Version: 0.1.0
+Summary: A CLI tool for generating Git commands based on user input
+Author-email: Seungwoo Hong <seungwoo.hong@gmail.com>
+Requires-Dist: openai

@@ -1,0 +1,22 @@
+# pyproject.toml
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "girit"
+version = "0.1.0"
+description = "A CLI tool for generating Git commands based on user input"
+authors = [
+    { name="Seungwoo Hong", email="seungwoo.hong@gmail.com" }
+]
+dependencies = [
+    "openai"
+]
+
+# Add these new sections
+[project.scripts]
+girit = "girit:main"
+
+[tool.setuptools]
+packages = ["girit"]

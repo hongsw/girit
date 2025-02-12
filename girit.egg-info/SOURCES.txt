@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+girit/__init__.py
+girit.egg-info/PKG-INFO
+girit.egg-info/SOURCES.txt
+girit.egg-info/dependency_links.txt
+girit.egg-info/entry_points.txt
+girit.egg-info/requires.txt
+girit.egg-info/top_level.txt
